@@ -1,0 +1,41 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fef6f9; /* rosado muy suave */
+    margin: 30px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #d63384; /* rosado bonito */
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+/* Bordes (para que sí se vea tabla) */
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Encabezado */
+thead {
+    background-color: #f8c8dc; /* rosado pastel */
+    color: #333;
+}
+
+/* Filas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #fff0f5; /* rosado muy clarito */
+}
+
+/* Hover suave */
+tbody tr:hover {
+    background-color: #ffe4ec;
+}
